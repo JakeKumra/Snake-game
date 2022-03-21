@@ -1,0 +1,92 @@
+html, body {
+    background-color: #662400;
+    font-family: 'roboto';
+    margin: 10px;
+    text-align: center;
+}
+
+/* Topography */
+
+h1, 
+h2, 
+p,
+button {
+    color: white;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2, 
+p {
+    font-size: 26px;
+}
+
+p {
+    font-style: italic;
+}
+
+/* Layout */
+
+.container {
+    background-color: #B33F00;
+    border-radius: 2%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    width: 500px;
+}
+
+.grid {
+    background-color: white;
+    border: solid 1px #FF6B1A;
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+/* Snake */
+
+.snake {
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+
+/* Apple */
+
+.apple {
+    background-color: lightcoral;
+    border-radius: 50%;
+
+}
+
+/* Buttons */
+
+.btn {
+    background-color: #006663;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    display:inline-block;
+    font-family: "roboto";
+    font-weight: 900;
+    font-size: 18px;
+    padding: 6px 30px; 
+}
+
+.btn:hover, .btn:focus {
+    background-color: white;
+    color: #006663;
+}
